@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My First Site | Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<nav>
+	<a href="">About</a>
+	<a href="">Portfolio</a>
+  <a href="">Resume
+	<a href="">Contact</a>
+</nav>
+
+
+	<header>
+	</header>
+
+
+<script> defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<footer>
+	<div class="wrap">
+		<div class="social-links">
+			<a href>
+     
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-instagram"></a>
+	</div>
+</div>
+
+
+	<p>&copy;2016 <a href="">Freddie Vitale</a></p>
+</footer>
+</body>
+</html>
