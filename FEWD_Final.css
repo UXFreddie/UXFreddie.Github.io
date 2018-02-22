@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+body {
+	background-image: url(../img/FEWD_BackImg.jpg);
+	background-size: cover auto;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+.articles h3 {
+	font-family: raleway;
+}
+
+.articles h4{
+	font-family: Raleway;
+}
+
+p{
+	font-family: lato;
+	font-size: 15px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 23px;
+	text-align: center;
+	font-family: Raleway;
+	color: #44545e;
+}
+
+h3 {
+	text-align: center;
+	font-family: raleway;
+	font-size: 18px;
+}
+
+header h2{
+	font-family: Raleway;
+	color: white;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+}
+
+
+h1 {
+	font-family: raleway;
+  padding-top: 140px;
+	font-size: 37px;
+  letter-spacing: 12px;
+	display: inline-block;
+	color: white;
+}
+
+nav {
+	font-family: raleway;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-decoration: none;
+		text-align:right;
+}
+
+nav a {
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    padding: 20px 60px;
+    display: inline-block;
+    border-bottom: none;
+    text-transform: uppercase;
+    text-decoration: none;
+		color: white;
+}
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer a{
+	font-family: raleway;
+	font-size: 15px;
+	text-align: center;
+}
+
+footer p{
+	font-family: raleway;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+
+footer {
+	padding-top: auto;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.social-links a {
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 5;
+    display: inline-block;
+		text-align: center;
+    color: #44545E;
+}
+
+.wrap {
+	text-align: center;
+}
