@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My First Site | Home</title>
+	<!-- Link for FontAwesome has already been added! -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
@@ -10,15 +11,86 @@
 <body>
 
 <nav>
-	<a href="">About</a>
-	<a href="">Portfolio</a>
-  <a href="">Resume
-	<a href="">Contact</a>
+	<a class="about" href="about">About</a>
+	<a href="portfolio">Portfolio</a>
+	<a href="resume">Resume</a>
+	<button id="myBtn">Contact</button>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+		<form>
+			<input type="text" id="full-name" placeholder="Enter your full name">
+			<input type="email" name="email" placeholder="Enter your email">
+			<input type="text" name="phone-number" placeholder="Enter your phone number">
+			<textarea placeholder="Message">Comments</textarea>
+			<button type="submit">Submit</button>
+		</form>
+  </div>
+
+</div>
+<script>
+
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 </nav>
 
-
 	<header>
+		<h1>
+		Frederick-Designs
+	</h1>
 	</header>
+
+<div class="grid-wrapper">
+
+	<aside>
+		<p class= "intro"> Hi, I'm Freddie. Welcome to my personally coded portfolio. </p>
+	</aside>
+
+	<section>
+		<h3>
+			Building Wonderfully Intuitive Products That Simplify the User Experience is What I Enjoy.
+		</h3>
+			<!-- <p class= "P1">
+				While in undergrad, I studied psychology and worked as a public policy researcher. I enjoyed the problem solving aspect of my work, but wanted something more technical and applied.
+			</p>  -->
+
+			<!-- <p class= "P2">
+				A role that allowed me to act on my insights beyond the research process was calling. I discovered UX, and fast tracked my career by enrolling at General Assembly right after college.
+			</p> -->
+
+			<!-- <p class= "P3">
+				I'm now a skilled UX designer with an apt for solving UX/UI problems through research backed insights.
+			</p>
+
+			<p class= "P4">
+				Currently, a setting where I can touch on many project topic areas at once is what interests me most. My goal is to continue rounding my design skills, while helping propel a brand.
+			</p> -->
+<div class=chevron-container>
+			<button id="chevron" class="continue" style="font-size:24px"><i class="fa fa-angle-double-down"></i></button>
+</div>
+
+</section>
+
+
+</div>
 
 
 <script> defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -27,15 +99,19 @@
 	<div class="wrap">
 		<div class="social-links">
 			<a href>
-     
-			<a href="#" class="fa fa-facebook"></a>
+
+			<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+			<a href="#" class="fa fa-linkedin"></a>
 			<a href="#" class="fa fa-twitter"></a>
-			<a href="#" class="fa fa-instagram"></a>
 	</div>
 </div>
 
 
-	<p>&copy;2016 <a href="">Freddie Vitale</a></p>
+	<p>&copy;2018 <a href="">Freddie Vitale</a></p>
 </footer>
+</div>
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
